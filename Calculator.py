@@ -77,5 +77,3 @@ boton_punto.grid(row = 5,column = 2, padx = 5, pady =5)
 boton_igual.grid(row = 5,column = 3, padx = 5, pady =5)
 
 ventana.mainloop()
-
-#Small test to load data from Atom to github
