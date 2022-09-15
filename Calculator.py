@@ -1,3 +1,5 @@
+#Small calculator done with TKinter & Python
+
 from tkinter import *
 
 ventana = Tk()                  #mainScreen
