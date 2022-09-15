@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 ventana = Tk()                  #mainScreen
 ventana.title("Calculadora")    #mainScreen title
 
