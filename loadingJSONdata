@@ -1,0 +1,29 @@
+import json
+
+data = '''
+{
+  "nombre": "Marcos",
+  "Apellido": "Rivas",
+  "lenguajes": ["Javascrip", "Python", "C++"],
+  "edad": 30,
+  "experiencia":[
+    {
+      "empresa": "Microsoft",
+      "antiguedad": 5
+    },
+    {
+      "empresa": "Google",
+      "antiguedad": 5
+    }
+  ],
+  "direccion":{
+    "calle": "asd",
+    "numero": 40,
+    "colonia": "NY"
+  }
+}'''
+
+info = json.loads(data)
+print('Se llama:', info["nombre"])
+print('Se apellida:', info["Apellido"])
+print('y sabe:', info["lenguajes"])
